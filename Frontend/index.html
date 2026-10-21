@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>TaskFlow</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>TaskFlow</h1>
+
+  <nav>
+    <a href="#/">Wszystkie</a>
+    <a href="#/active">Aktywne</a>
+    <a href="#/completed">Zakończone</a>
+  </nav>
+
+  <form id="task-form">
+    <input type="text" id="title" placeholder="Nowe zadanie" required />
+    <button>Dodaj</button>
+  </form>
+
+  <ul id="task-list"></ul>
+
+  <script src="router.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
